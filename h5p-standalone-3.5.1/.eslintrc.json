@@ -9,6 +9,7 @@
     "ecmaVersion": 2017,
     "sourceType": "module"
   },
+  "rules": {
     "no-const-assign": "warn",
     "no-this-before-super": "warn",
     "no-undef": "warn",
