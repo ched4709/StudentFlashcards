@@ -1,13 +1,13 @@
 <html>
 
 <head>
-  <link type="text/css" rel="stylesheet" media="all" href="../workspace/styles/h5p.css" />
+  <link type="text/css" rel="stylesheet" media="all" href="../workspace/dist/styles/h5p.css" />
   <meta charset="utf-8" />
-  <script type="text/javascript" src="../workspace/main.bundle.js"></script>
+  <script type="text/javascript" src="../workspace/dist/main.bundle.js"></script>
 </head>
 
 <body>
-  <h1>Flashcards by Zac</h1>
+  <h1>Flashcards by Team 39</h1>
 
   <div id="h5p-container"></div>
 
@@ -15,8 +15,8 @@
     const { H5P } = H5PStandalone;
     new H5P(document.getElementById('h5p-container'), {
       h5pJsonPath: 'h5p-test',
-      frameJs: '../workspace/frame.bundle.js',
-      frameCss: '../workspace/styles/h5p.css'
+      frameJs: '../workspace/dist/frame.bundle.js',
+      frameCss: '../workspace/dist/styles/h5p.css'
     });
   </script>
 </body>

@@ -1,7 +1,6 @@
 node_modules
 .DS_Store
 cypress/videos
-dist
 .idea
 
 # IDEs and editors
