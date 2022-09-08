@@ -1,11 +1,11 @@
 <html>
 
 <head>
+  <link type="text/css" rel="stylesheet" media="all" href="workspace/dist/styles/h5p.css" />
   <meta charset="utf-8" />
 </head>
 
-<body style="background-color:#27344e; color:white;" align="center">
-	<br>
+<body style="background-color:#27344e; color:white; font-family:sans-serif; margin-top:7.5%" align="center">
 	<?php
 		$conn = mysqli_connect("localhost", "root", "", "flashcards_demo");
 		
@@ -19,7 +19,8 @@
 		while ($row = mysqli_fetch_row($result)) {
 			echo "<input type='radio' name='class' id='$row[0]' value='$row[0]'><label for='$row[0]' style='font-size:40px'>".ucwords($row[0])."</label><br>";
 		}
-		echo "<input type='submit' value='Show Class' style='font-size:20px'>";
+		echo "<br>";
+		echo "<input type='submit' value='Show Class' class='show'>";
 		echo "</form>"
 	?>
 </body>

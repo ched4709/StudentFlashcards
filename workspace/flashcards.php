@@ -1,4 +1,4 @@
-<html>
+<!DOCTYPE html>
 
 <head>
   <link type="text/css" rel="stylesheet" media="all" href="../workspace/dist/styles/h5p.css" />
@@ -6,7 +6,7 @@
   <script type="text/javascript" src="../workspace/dist/main.bundle.js"></script>
 </head>
 
-<body style="background-color:#27344e;">
+<body style="background-color:#27344e;" align="center">
   <?php
     if (isset($_GET["class"])) {
       $class = strtolower($_GET["class"]);
@@ -25,7 +25,7 @@
       frameCss: '../workspace/dist/styles/h5p.css'
     });
   </script>
-  <a href="../index.php"><button>Back to home</button></a>
+  <a href="../index.php"><button class="button">Back</button></a>
 </body>
 
 </html>

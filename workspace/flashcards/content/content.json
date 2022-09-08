@@ -1,4 +1,4 @@
-{"cards": [{"answer": "Tom", "image": {"path": "images/topgun/102583457.jpg", "width": 889, "height": 594}, "tip": "Tom Cruise"},{"answer": "Jennifer", "image": {"path": "images/topgun/102583465.jpg", "width": 889, "height": 594}, "tip": "Jennifer Connelly"},{"answer": "Glen", "image": {"path": "images/topgun/102583463.jpg", "width": 889, "height": 594}, "tip": "Glen Powell"},{"answer": "Jay", "image": {"path": "images/topgun/102583475.jpg", "width": 889, "height": 594}, "tip": "Jay Ellis"},{"answer": "Monica", "image": {"path": "images/topgun/102583471.jpg", "width": 889, "height": 594}, "tip": "Monica Barbaro"},{"answer": "Val", "image": {"path": "images/topgun/102583459.jpg", "width": 889, "height": 594}, "tip": "Val Kilmer"},{"answer": "Jon", "image": {"path": "images/topgun/102583467.jpg", "width": 889, "height": 594}, "tip": "Jon Hamm"},{"answer": "Lewis", "image": {"path": "images/topgun/102583469.jpg", "width": 889, "height": 594}, "tip": "Lewis Pullman"},{"answer": "Miles", "image": {"path": "images/topgun/102583461.jpg", "width": 889, "height": 594}, "tip": "Miles Teller"},{"answer": "Ed", "image": {"path": "images/topgun/102583473.jpg", "width": 889, "height": 594}, "tip": "Ed Harris"},{"answer": "Manny", "image": {"path": "images/topgun/102583477.jpg", "width": 889, "height": 594}, "tip": "Manny Jacinto"}],
+{"cards": [{"answer": "John", "image": {"path": "images/anon.jpg", "width": 889, "height": 594}, "tip": "John Smith"},{"answer": "Dimitrija", "image": {"path": "images/comp_sci/7663595.jpg", "width": 889, "height": 594}, "tip": "Dimitrija Lakovski"},{"answer": "Shana", "image": {"path": "images/comp_sci/102676254.jpg", "width": 889, "height": 594}, "tip": "Shana Triwiwat"},{"answer": "Jane", "image": {"path": "images/anon.jpg", "width": 889, "height": 594}, "tip": "Jane Smith"},{"answer": "Ed", "image": {"path": "images/comp_sci/103056394.jpg", "width": 889, "height": 594}, "tip": "Ed Sargeant"},{"answer": "Jack", "image": {"path": "images/comp_sci/102115362.jpg", "width": 889, "height": 594}, "tip": "Jack Swanton"},{"answer": "Zac", "image": {"path": "images/comp_sci/103060722.jpg", "width": 889, "height": 594}, "tip": "Zac Barsdell"},{"answer": "Riley", "image": {"path": "images/comp_sci/102558242.jpg", "width": 889, "height": 594}, "tip": "Riley Hempel"}],
 			"progressText": "Card @card of @total",
 			"next": "Next",
 			"previous": "Previous",
@@ -14,7 +14,7 @@
 			"answerShortText": "A:",
 			"retry": "Retry",
 			"caseSensitive": false,
-			"description": "Which member of Topgun class is this?",
+			"description": "Which member of Comp_sci class is this?",
 			"cardAnnouncement": "Incorrect answer. Correct answer was @answer",
 			"correctAnswerAnnouncement": "@answer is correct.",
 			"pageAnnouncement": "Page @current of @total"}

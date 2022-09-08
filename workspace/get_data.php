@@ -13,8 +13,15 @@
 			while($row = mysqli_fetch_array($result))
 			{
 				$name = explode(" ",$row["Name"]);
-				$cards .= '{"answer": "'.$name[0].'", "image": {"path": "images/'.$table_name.'/'.$row["StudentID"].'.jpg", "width": 889, "height": 594}, "tip": "'.$row["Name"].'"},';
 
+				$filename = "flashcards/content/images/".$table_name."/".$row["StudentID"].".jpg";
+				if (file_exists($filename)) {
+					$cards .= '{"answer": "'.$name[0].'", "image": {"path": "images/'.$table_name.'/'.$row["StudentID"].'.jpg", "width": 889, "height": 594}, "tip": "'.$row["Name"].'"},';
+				} else {
+					$cards .= '{"answer": "'.$name[0].'", "image": {"path": "images/anon.jpg", "width": 889, "height": 594}, "tip": "'.$row["Name"].'"},';
+				}
+
+				
 			}
 			
 			return '{"cards": ['.rtrim($cards, ',').'],
